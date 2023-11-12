@@ -1,0 +1,4 @@
+@font-face {
+	font-family: 'Monopoly';
+	src: local('Monopoly'), url('./CabinFont.ttf') format('truetype');
+}

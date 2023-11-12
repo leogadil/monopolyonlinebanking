@@ -1,0 +1,78 @@
+{
+  "players": [
+    {
+      "_id": "937eab08-b518-4382-b146-a29fa9e26996",
+      "name": "Test 1",
+      "socketId": "m0bCEQTbmNhmiwwqAAAN",
+      "createdAt": 1699715775176
+    },
+    {
+      "_id": "1800d349-75eb-4b92-bd86-8ad8d5e10001",
+      "name": "Test 2",
+      "socketId": "xiQRHNX9iyCn1D_ZAAAJ",
+      "createdAt": 1699715775551
+    }
+  ],
+  "rooms": [
+    {
+      "_id": "7d3f810b-18a0-4881-b173-cde0b46fee02",
+      "name": "Test 1's room",
+      "owner": "937eab08-b518-4382-b146-a29fa9e26996",
+      "banker": "937eab08-b518-4382-b146-a29fa9e26996",
+      "players": [
+        {
+          "_id": "937eab08-b518-4382-b146-a29fa9e26996",
+          "name": "Test 1",
+          "avatar": "DOG",
+          "playerState": "CONNECTED",
+          "ready": false,
+          "isHost": true
+        },
+        {
+          "_id": "1800d349-75eb-4b92-bd86-8ad8d5e10001",
+          "name": "Test 2",
+          "avatar": "CAR",
+          "playerState": "CONNECTED",
+          "ready": false,
+          "isHost": false
+        }
+      ],
+      "state": "STARTED",
+      "avaliableAvatars": [
+        "BOOT",
+        "HAT",
+        "IRON",
+        "SHIP",
+        "HORSE"
+      ],
+      "game": "863d9e37-f29f-4ec5-ac67-da6677369f59"
+    }
+  ],
+  "games": [
+    {
+      "_id": "863d9e37-f29f-4ec5-ac67-da6677369f59",
+      "banker": "937eab08-b518-4382-b146-a29fa9e26996",
+      "players": [
+        {
+          "_id": "937eab08-b518-4382-b146-a29fa9e26996",
+          "name": "Test 1",
+          "avatar": "DOG",
+          "money": 1500000,
+          "totalMoney": 1500000
+        },
+        {
+          "_id": "1800d349-75eb-4b92-bd86-8ad8d5e10001",
+          "name": "Test 2",
+          "avatar": "CAR",
+          "money": 1500000,
+          "totalMoney": 1500000
+        }
+      ],
+      "startingMoney": 1500000,
+      "salary": 200000,
+      "startedAt": 1699715785370,
+      "endedAt": null,
+      "log": []
+    }
+  ]
+}
